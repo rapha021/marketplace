@@ -17,6 +17,11 @@ header figure {
   margin-left: 115px;
 }
 
+header figure img {
+  height: 55px;
+  width: auto;
+}
+
 header nav {
 }
 
@@ -59,6 +64,7 @@ header nav ul li:hover {
   margin-right: 40px;
   margin-bottom: 22px;
   border: 2px solid #f5f5f5;
+  box-shadow: 0px 4px 30px -10px rgba(0, 0, 0, 0.1);
 }
 
 .card:hover {
@@ -74,6 +80,8 @@ header nav ul li:hover {
 .product_img img {
   margin: 9px 52px;
   overflow: hidden;
+  height: 150px;
+  width: auto;
 }
 
 .product_info {
@@ -222,7 +230,7 @@ header nav ul li:hover {
 
 .cart #cartList img {
   width: 88px;
-  height: 92px;
+  height: auto;
   background-color: white;
 }
 

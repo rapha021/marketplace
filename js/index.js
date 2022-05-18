@@ -252,16 +252,16 @@ navHeader.addEventListener("click", (event) => {
       document.querySelector(".card").remove();
     }
     listarProdutos(data, "Acessórios");
-  } else if (target == "Calçados") {
+  } else if (target == "Consoles") {
     for (let i = 0; i < filhosDiv; i++) {
       document.querySelector(".card").remove();
     }
-    listarProdutos(data, "Calçados");
-  } else if (target == "Camisetas") {
+    listarProdutos(data, "Consoles");
+  } else if (target == "Gift Card") {
     for (let i = 0; i < filhosDiv; i++) {
       document.querySelector(".card").remove();
     }
-    listarProdutos(data, "Camisetas");
+    listarProdutos(data, "Gift Card");
   }
 });
 
