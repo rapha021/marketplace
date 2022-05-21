@@ -153,6 +153,7 @@ header nav ul li:hover {
   outline: none;
   border: none;
 }
+
 .search_bar button {
   display: flex;
   padding: 16px;
